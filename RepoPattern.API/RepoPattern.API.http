@@ -1,0 +1,6 @@
+@RepoPattern.API_HostAddress = http://localhost:5064
+
+GET {{RepoPattern.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
