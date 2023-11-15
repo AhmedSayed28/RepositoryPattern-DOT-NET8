@@ -19,9 +19,9 @@ namespace RepoPattern.EF.Repositories
 
         public T GetById(int id) => _context.Set<T>().Find(id);
 
-        //public T GetByIdWithInclude(int id )
-        //{
-        //   _context.Set<T>().Include(x=>x).SingleOrDefault(id);
-        //}
+        ////public T GetByIdWithInclude(int id )
+        ////{
+        ////   _context.Set<T>().Include(x=>x).SingleOrDefault(id);
+        ////}
     }
 }
